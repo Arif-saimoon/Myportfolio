@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+section{
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+.col-2{
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+.col-3{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+.header{
+    background: url('img/header-bg.png') center no-repeat;
+    background-size: cover;
+}
+.my-info{
+    margin-top: 55px;
+}
+.my-info h2{
+    color: #EC4C7A;
+    font-size: 43px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.my-info h3{
+    color: #202428;
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.my-info p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #707070;
+    margin-bottom: 40px;
+}
+.btn{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    background: linear-gradient(90deg,#d81a50, #EC4C7A);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 400;
+    transition: all .3s ease;
+}
+.btn:hover{
+    background: transparent;
+    color: #d81a50;
+    border-color: #d81a50;
+}
+
+
+.biography{
+    background: url('img/biography-bg.png') center no-repeat;
+    background-size: cover;
+}
+.bio{
+    margin-top: 90px;
+}
+.bio h3{
+    color: #202428;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.bio p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #707070;
+    margin-bottom: 40px;
+}
+.work {
+    background: url('img/latest-work-bg.png') center no-repeat;
+    background-size: cover;
+}
+.work h2{
+    color: #202428;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.client {
+    background: url('img/footer-bg.png') center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.client h2{
+    color: #202428;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.our-client h4{
+    color: #202428;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.our-client h5{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.our-client p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #202428;
+    margin-bottom: 40px;
+}
+.contact{
+    width: 700px;
+    margin: 0 auto;
+    background: linear-gradient(90deg,#d81a50, #EC4C7A);
+    padding: 30px 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.contact p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contact h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+.copyright p{
+    font-size: 16px;
+    color: #707070;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-icon ul{
+    list-style-type: none;
+    text-align: center;
+}
+.social-icon ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icon ul li a{
+    display: block;
+    background: transparent;
+    border: 1px solid #DA2055;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .3s ease;
+}
+
+.social-icon ul li a .fa{
+    color: #DA2055;
+    font-size: 20px;
+}
+.social-icon ul li a:hover{
+    background-color: #DA2055;
+
+}
+.social-icon ul li a:hover .fa{
+    color: #fff;
+}
